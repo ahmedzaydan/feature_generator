@@ -20,6 +20,7 @@ dependencies:
   feature_generator:
     git:
       url: https://github.com/your-username/feature_generator.git
+      ref: main
 ```
 
 2. Run the following command to install the package:
