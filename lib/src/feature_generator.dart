@@ -10,7 +10,7 @@ class FeatureGenerator {
   final String? directory;
   late List<FeatureLayer> layers;
 
-  String get baseDir => directory ?? '../lib/features';
+  String get baseDir => directory ?? 'lib/features';
 
   FeatureGenerator({this.directory});
 
