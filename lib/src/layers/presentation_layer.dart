@@ -5,6 +5,8 @@ class PresentationLayer extends FeatureLayer {
   PresentationLayer(super.featureName);
 
   String get screenContent => '''
+import 'package:flutter/material.dart';
+
 class ${pascalCaseFeatureName}Screen extends StatelessWidget {
   const ${pascalCaseFeatureName}Screen({super.key});
 

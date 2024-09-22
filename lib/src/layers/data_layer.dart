@@ -18,6 +18,7 @@ class ${pascalCaseFeatureName}RemoteDataSourceImplementer implements ${pascalCas
   String get repositoryImplementerContent => '''
 import '../../../../core/error/exception.dart';
 import '../../../../core/error/failures.dart';
+import '../../../auth/data/data_sources/${featureName}_remote_data_soucre.dart';
 import '../../domain/repositories/${featureName}_repository.dart';
 
 class ${pascalCaseFeatureName}RepositoryImplementer implements ${pascalCaseFeatureName}Repository {
