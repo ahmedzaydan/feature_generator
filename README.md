@@ -45,24 +45,31 @@ dart run feature_generator:main <base_dir(optional)> <your_feature_name>
 #### Example:
 
 ```bash
-dart run feature_generator:main lib/new_features/ auth
+dart run feature_generator:main lib/features auth
 ```
 
-This command will generate an `auth` feature under the `lib/new_features/` directory with the following structure:
+This command will generate an `auth` feature under the `lib/features/` directory with the following structure:
 
 ```
-lib/new_features/auth/
+lib/features/auth/
 ├─ data/
 │   ├─ models/
 │   ├─ data_sources/
+│   │   ├─ auth_remote_data_source.dart
 │   ├─ repository_implementers/
+│   │   ├─ auth_repository_implementer.dart
 ├─ domain/
 │   ├─ entities/
 │   ├─ repositories/
+│   │   ├─ auth_repository.dart
 │   ├─ usecases/
 ├─ presentation/
 │   ├─ blocs/
+│   │   ├─ auth/
+│   │   │   ├─ auth_cubit.dart
+│   │   │   ├─ auth_states.dart
 │   ├─ screens/
+│   │   ├─ auth_screen.dart
 │   ├─ widgets/
 ```
 
