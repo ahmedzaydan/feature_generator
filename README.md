@@ -19,7 +19,7 @@ A Dart package that helps generate feature-based folder and file structures in y
 dependencies:
   feature_generator:
     git:
-      url: https://github.com/your-username/feature_generator.git
+      url: https://github.com/ahmedzaydan/feature_generator.git
       ref: main
 ```
 
@@ -80,7 +80,7 @@ To make changes to this package:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/feature_generator.git
+git clone https://github.com/ahmedzaydan/feature_generator.git
 ```
 
 2. Make your changes and test locally using the `dart run` command.
